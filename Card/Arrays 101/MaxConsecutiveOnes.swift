@@ -24,7 +24,7 @@ struct MaxConsecutiveOnes {
     ]
     
     @Test("Run Solution", arguments: testCases)
-    func runSolution(data: (input: [Int], answer: Int)) {
+    func runSolution(data: (input: [Int], answer: Int)) async throws {
         let result = solution.findMaxConsecutiveOnes(data.input)
         #expect(result == data.answer)
     }
