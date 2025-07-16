@@ -8,20 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		CEA7FD1D2E275ADE00DC58F1 /* MaxConsecutiveOnes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7FD1C2E275ADE00DC58F1 /* MaxConsecutiveOnes.swift */; };
+		CEA7FD2E2E27944900DC58F1 /* RunCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7FD2C2E27944900DC58F1 /* RunCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CEA7FD112E275A7000DC58F1 /* RunCode.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunCode.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA7FD1C2E275ADE00DC58F1 /* MaxConsecutiveOnes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxConsecutiveOnes.swift; sourceTree = "<group>"; };
+		CEA7FD2C2E27944900DC58F1 /* RunCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunCode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		CEA7FD132E275A7000DC58F1 /* RunCode */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = RunCode;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CEA7FD0E2E275A7000DC58F1 /* Frameworks */ = {
@@ -38,7 +32,7 @@
 			isa = PBXGroup;
 			children = (
 				CEA7FD1A2E275ABA00DC58F1 /* Card */,
-				CEA7FD132E275A7000DC58F1 /* RunCode */,
+				CEA7FD2D2E27944900DC58F1 /* RunCode */,
 				CEA7FD122E275A7000DC58F1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,6 +61,14 @@
 			path = "Arrays 101";
 			sourceTree = "<group>";
 		};
+		CEA7FD2D2E27944900DC58F1 /* RunCode */ = {
+			isa = PBXGroup;
+			children = (
+				CEA7FD2C2E27944900DC58F1 /* RunCode.swift */,
+			);
+			path = RunCode;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -81,9 +83,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				CEA7FD132E275A7000DC58F1 /* RunCode */,
 			);
 			name = RunCode;
 			packageProductDependencies = (
@@ -141,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA7FD2E2E27944900DC58F1 /* RunCode.swift in Sources */,
 				CEA7FD1D2E275ADE00DC58F1 /* MaxConsecutiveOnes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
