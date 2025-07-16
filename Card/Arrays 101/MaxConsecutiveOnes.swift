@@ -19,8 +19,13 @@ class Solution {
 struct MaxConsecutiveOnes {
     let solution = Solution()
     
-    @Test
-    func example() {
-        #expect(solution.findMaxConsecutiveOnes([1, 1, 0, 1, 1, 1]) == 3)
+    static let testCases: [(input: [Int], answer: Int)] = [
+        (input: [1, 1, 0, 1, 1, 1], answer: 3)
+    ]
+    
+    @Test("Run Solution", arguments: testCases)
+    func runSolution(data: (input: [Int], answer: Int)) {
+        let result = solution.findMaxConsecutiveOnes(data.input)
+        #expect(result == data.answer)
     }
 }
