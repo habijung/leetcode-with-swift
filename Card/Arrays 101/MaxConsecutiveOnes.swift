@@ -11,7 +11,22 @@ import Testing
 
 class Solution {
     func findMaxConsecutiveOnes(_ nums: [Int]) -> Int {
-        return 3
+        var maxCount = 0
+        var currentCount = 0
+        
+        for num in nums {
+            if num == 1 {
+                currentCount += 1
+            } else {
+                maxCount = max(currentCount, maxCount)
+                currentCount = 0
+            }
+        }
+        
+        // 끝까지 0이 나오지 않은 경우에 비교하기
+        maxCount = max(currentCount, maxCount)
+        
+        return maxCount
     }
 }
 
