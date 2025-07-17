@@ -64,12 +64,12 @@
 		CEA7FD1A2E275ABA00DC58F1 /* Card */ = {
 			isa = PBXGroup;
 			children = (
-				CEA7FD1B2E275AC000DC58F1 /* Arrays 101 */,
+				CEA7FD1B2E275AC000DC58F1 /* Arrays101 */,
 			);
 			path = Card;
 			sourceTree = "<group>";
 		};
-		CEA7FD1B2E275AC000DC58F1 /* Arrays 101 */ = {
+		CEA7FD1B2E275AC000DC58F1 /* Arrays101 */ = {
 			isa = PBXGroup;
 			children = (
 				0727A0292E2C9308006EED44 /* 26.RemoveDuplicatesFromSortedArray.swift */,
@@ -82,7 +82,7 @@
 				CEB606312E287C5300817BD8 /* 1295.FindNumbersWithEvenNumberOfDigits.swift */,
 				070F16542E2CC63900073AAE /* 1346.CheckIfNAndItsDoubleExist.swift */,
 			);
-			path = "Arrays 101";
+			path = Arrays101;
 			sourceTree = "<group>";
 		};
 		CEA7FD2D2E27944900DC58F1 /* Template */ = {
