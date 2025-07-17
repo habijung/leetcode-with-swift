@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEA7FD1D2E275ADE00DC58F1 /* MaxConsecutiveOnes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7FD1C2E275ADE00DC58F1 /* MaxConsecutiveOnes.swift */; };
+		CEA7FD1D2E275ADE00DC58F1 /* 485.MaxConsecutiveOnes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7FD1C2E275ADE00DC58F1 /* 485.MaxConsecutiveOnes.swift */; };
 		CEA7FD2E2E27944900DC58F1 /* RunCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7FD2C2E27944900DC58F1 /* RunCode.swift */; };
 		CEB606322E287C5300817BD8 /* 1295.FindNumbersWithEvenNumberOfDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB606312E287C5300817BD8 /* 1295.FindNumbersWithEvenNumberOfDigits.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CEA7FD112E275A7000DC58F1 /* RunCode.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunCode.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEA7FD1C2E275ADE00DC58F1 /* MaxConsecutiveOnes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxConsecutiveOnes.swift; sourceTree = "<group>"; };
+		CEA7FD1C2E275ADE00DC58F1 /* 485.MaxConsecutiveOnes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 485.MaxConsecutiveOnes.swift; sourceTree = "<group>"; };
 		CEA7FD2C2E27944900DC58F1 /* RunCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunCode.swift; sourceTree = "<group>"; };
 		CEB606312E287C5300817BD8 /* 1295.FindNumbersWithEvenNumberOfDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1295.FindNumbersWithEvenNumberOfDigits.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,8 +58,8 @@
 		CEA7FD1B2E275AC000DC58F1 /* Arrays 101 */ = {
 			isa = PBXGroup;
 			children = (
+				CEA7FD1C2E275ADE00DC58F1 /* 485.MaxConsecutiveOnes.swift */,
 				CEB606312E287C5300817BD8 /* 1295.FindNumbersWithEvenNumberOfDigits.swift */,
-				CEA7FD1C2E275ADE00DC58F1 /* MaxConsecutiveOnes.swift */,
 			);
 			path = "Arrays 101";
 			sourceTree = "<group>";
@@ -144,7 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEA7FD2E2E27944900DC58F1 /* RunCode.swift in Sources */,
-				CEA7FD1D2E275ADE00DC58F1 /* MaxConsecutiveOnes.swift in Sources */,
+				CEA7FD1D2E275ADE00DC58F1 /* 485.MaxConsecutiveOnes.swift in Sources */,
 				CEB606322E287C5300817BD8 /* 1295.FindNumbersWithEvenNumberOfDigits.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

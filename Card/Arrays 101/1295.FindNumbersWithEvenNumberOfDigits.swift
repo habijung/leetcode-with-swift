@@ -32,7 +32,7 @@ struct Test1295 {
         ([555, 901, 482, 1771], 1),
     ]
     
-    @Test("Find Numbers with Even Number of Digits", arguments: testCases)
+    @Test("1295. Find Numbers with Even Number of Digits", arguments: testCases)
     func runSolution(input: [Int], expected: Int) async throws {
         #expect(solution.findNumbers(input) == expected)
     }

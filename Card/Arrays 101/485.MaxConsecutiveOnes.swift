@@ -9,7 +9,7 @@ import Foundation
 import Testing
 
 
-class Solution {
+class Solution485 {
     func findMaxConsecutiveOnes(_ nums: [Int]) -> Int {
         var maxCount = 0
         var currentCount = 0
@@ -31,16 +31,15 @@ class Solution {
 }
 
 
-struct MaxConsecutiveOnes {
-    let solution = Solution()
+struct Test485 {
+    let solution = Solution485()
     
     static let testCases: [(input: [Int], answer: Int)] = [
-        (input: [1, 1, 0, 1, 1, 1], answer: 3)
+        (input: [1, 1, 0, 1, 1, 1], answer: 3),
     ]
     
-    @Test("Run Solution", arguments: testCases)
-    func runSolution(data: (input: [Int], answer: Int)) async throws {
-        let result = solution.findMaxConsecutiveOnes(data.input)
-        #expect(result == data.answer)
+    @Test("485. Max Consecutive Ones", arguments: testCases)
+    func runSolution(input: [Int], expected: Int) async throws {
+        #expect(solution.findMaxConsecutiveOnes(input) == expected)
     }
 }
