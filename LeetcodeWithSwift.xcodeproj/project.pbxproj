@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE18E1012E28987000E37D8F /* 977.SquaresOfASortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18E1002E28987000E37D8F /* 977.SquaresOfASortedArray.swift */; };
 		070F16552E2CC63900073AAE /* 1346.CheckIfNAndItsDoubleExist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070F16542E2CC63900073AAE /* 1346.CheckIfNAndItsDoubleExist.swift */; };
 		070F16572E2CDA2C00073AAE /* 941.ValidMountainArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070F16562E2CDA2C00073AAE /* 941.ValidMountainArray.swift */; };
 		0727A02A2E2C9308006EED44 /* 26.RemoveDuplicatesFromSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0727A0292E2C9308006EED44 /* 26.RemoveDuplicatesFromSortedArray.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE18E1002E28987000E37D8F /* 977.SquaresOfASortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 977.SquaresOfASortedArray.swift; sourceTree = "<group>"; };
 		070F16542E2CC63900073AAE /* 1346.CheckIfNAndItsDoubleExist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1346.CheckIfNAndItsDoubleExist.swift; sourceTree = "<group>"; };
 		070F16562E2CDA2C00073AAE /* 941.ValidMountainArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 941.ValidMountainArray.swift; sourceTree = "<group>"; };
 		0727A0292E2C9308006EED44 /* 26.RemoveDuplicatesFromSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 26.RemoveDuplicatesFromSortedArray.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				078CD0792E2BE9E20025F742 /* 27.RemoveElement.swift */,
 				078CD0772E2BCDE60025F742 /* 88.MergeSortedArray.swift */,
 				CEA7FD1C2E275ADE00DC58F1 /* 485.MaxConsecutiveOnes.swift */,
+				CE18E1002E28987000E37D8F /* 977.SquaresOfASortedArray.swift */,
 				070F16562E2CDA2C00073AAE /* 941.ValidMountainArray.swift */,
 				076430392E2AA0CA0052BC46 /* 1089.DuplicateZeros.swift */,
 				CEB606312E287C5300817BD8 /* 1295.FindNumbersWithEvenNumberOfDigits.swift */,
@@ -161,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE18E1012E28987000E37D8F /* 977.SquaresOfASortedArray.swift in Sources */,
 				CEA7FD2E2E27944900DC58F1 /* Template.swift in Sources */,
 				070F16552E2CC63900073AAE /* 1346.CheckIfNAndItsDoubleExist.swift in Sources */,
 				078CD0782E2BCDE60025F742 /* 88.MergeSortedArray.swift in Sources */,
