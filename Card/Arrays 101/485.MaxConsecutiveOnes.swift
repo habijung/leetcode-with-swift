@@ -1,5 +1,5 @@
 //
-//  MaxConsecutiveOnes.swift
+//  485.MaxConsecutiveOnes.swift
 //  LeetcodeWithSwift
 //
 //  Created by hbjung on 7/16/25.
