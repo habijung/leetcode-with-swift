@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0764303A2E2AA0CA0052BC46 /* 1089.DuplicateZeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076430392E2AA0CA0052BC46 /* 1089.DuplicateZeros.swift */; };
 		CEA7FD1D2E275ADE00DC58F1 /* 485.MaxConsecutiveOnes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7FD1C2E275ADE00DC58F1 /* 485.MaxConsecutiveOnes.swift */; };
-		CEA7FD2E2E27944900DC58F1 /* RunCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7FD2C2E27944900DC58F1 /* RunCode.swift */; };
+		CEA7FD2E2E27944900DC58F1 /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7FD2C2E27944900DC58F1 /* Template.swift */; };
 		CEB606322E287C5300817BD8 /* 1295.FindNumbersWithEvenNumberOfDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB606312E287C5300817BD8 /* 1295.FindNumbersWithEvenNumberOfDigits.swift */; };
 /* End PBXBuildFile section */
 
@@ -17,7 +17,7 @@
 		076430392E2AA0CA0052BC46 /* 1089.DuplicateZeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1089.DuplicateZeros.swift; sourceTree = "<group>"; };
 		CEA7FD112E275A7000DC58F1 /* RunCode.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunCode.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA7FD1C2E275ADE00DC58F1 /* 485.MaxConsecutiveOnes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 485.MaxConsecutiveOnes.swift; sourceTree = "<group>"; };
-		CEA7FD2C2E27944900DC58F1 /* RunCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunCode.swift; sourceTree = "<group>"; };
+		CEA7FD2C2E27944900DC58F1 /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
 		CEB606312E287C5300817BD8 /* 1295.FindNumbersWithEvenNumberOfDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1295.FindNumbersWithEvenNumberOfDigits.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -36,7 +36,7 @@
 			isa = PBXGroup;
 			children = (
 				CEA7FD1A2E275ABA00DC58F1 /* Card */,
-				CEA7FD2D2E27944900DC58F1 /* RunCode */,
+				CEA7FD2D2E27944900DC58F1 /* Template */,
 				CEA7FD122E275A7000DC58F1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,12 +67,12 @@
 			path = "Arrays 101";
 			sourceTree = "<group>";
 		};
-		CEA7FD2D2E27944900DC58F1 /* RunCode */ = {
+		CEA7FD2D2E27944900DC58F1 /* Template */ = {
 			isa = PBXGroup;
 			children = (
-				CEA7FD2C2E27944900DC58F1 /* RunCode.swift */,
+				CEA7FD2C2E27944900DC58F1 /* Template.swift */,
 			);
-			path = RunCode;
+			path = Template;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA7FD2E2E27944900DC58F1 /* RunCode.swift in Sources */,
+				CEA7FD2E2E27944900DC58F1 /* Template.swift in Sources */,
 				CEA7FD1D2E275ADE00DC58F1 /* 485.MaxConsecutiveOnes.swift in Sources */,
 				0764303A2E2AA0CA0052BC46 /* 1089.DuplicateZeros.swift in Sources */,
 				CEB606322E287C5300817BD8 /* 1295.FindNumbersWithEvenNumberOfDigits.swift in Sources */,
