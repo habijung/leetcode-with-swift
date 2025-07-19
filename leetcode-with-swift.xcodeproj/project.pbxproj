@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		076430392E2AA0CA0052BC46 /* 1089.DuplicateZeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1089.DuplicateZeros.swift; sourceTree = "<group>"; };
-		CEA7FD112E275A7000DC58F1 /* RunCode.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunCode.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA7FD112E275A7000DC58F1 /* LeetcodeWithSwift.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetcodeWithSwift.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA7FD1C2E275ADE00DC58F1 /* 485.MaxConsecutiveOnes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 485.MaxConsecutiveOnes.swift; sourceTree = "<group>"; };
 		CEA7FD2C2E27944900DC58F1 /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
 		CEB606312E287C5300817BD8 /* 1295.FindNumbersWithEvenNumberOfDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1295.FindNumbersWithEvenNumberOfDigits.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		CEA7FD122E275A7000DC58F1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEA7FD112E275A7000DC58F1 /* RunCode.xctest */,
+				CEA7FD112E275A7000DC58F1 /* LeetcodeWithSwift.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,9 +78,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CEA7FD102E275A7000DC58F1 /* RunCode */ = {
+		CEA7FD102E275A7000DC58F1 /* LeetcodeWithSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEA7FD182E275A7000DC58F1 /* Build configuration list for PBXNativeTarget "RunCode" */;
+			buildConfigurationList = CEA7FD182E275A7000DC58F1 /* Build configuration list for PBXNativeTarget "LeetcodeWithSwift" */;
 			buildPhases = (
 				CEA7FD0D2E275A7000DC58F1 /* Sources */,
 				CEA7FD0E2E275A7000DC58F1 /* Frameworks */,
@@ -90,11 +90,11 @@
 			);
 			dependencies = (
 			);
-			name = RunCode;
+			name = LeetcodeWithSwift;
 			packageProductDependencies = (
 			);
-			productName = RunCode;
-			productReference = CEA7FD112E275A7000DC58F1 /* RunCode.xctest */;
+			productName = LeetcodeWithSwift;
+			productReference = CEA7FD112E275A7000DC58F1 /* LeetcodeWithSwift.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -126,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CEA7FD102E275A7000DC58F1 /* RunCode */,
+				CEA7FD102E275A7000DC58F1 /* LeetcodeWithSwift */,
 			);
 		};
 /* End PBXProject section */
@@ -229,7 +229,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = hbjung.RunCode;
+				PRODUCT_BUNDLE_IDENTIFIER = hbjung.LeetcodeWithSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
@@ -293,7 +293,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = hbjung.RunCode;
+				PRODUCT_BUNDLE_IDENTIFIER = hbjung.LeetcodeWithSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -314,7 +314,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEA7FD182E275A7000DC58F1 /* Build configuration list for PBXNativeTarget "RunCode" */ = {
+		CEA7FD182E275A7000DC58F1 /* Build configuration list for PBXNativeTarget "LeetcodeWithSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEA7FD162E275A7000DC58F1 /* Debug */,

@@ -1,6 +1,6 @@
 //
 //  MaxConsecutiveOnes.swift
-//  RunCode
+//  LeetcodeWithSwift
 //
 //  Created by hbjung on 7/16/25.
 //
