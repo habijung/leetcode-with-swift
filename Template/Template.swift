@@ -9,7 +9,7 @@ import Foundation
 import Testing
 
 class SolutionNum {
-    func func(_ num: Int) -> Int {
+    func funcName(_ num: Int) -> Int {
         return num
     }
 }
@@ -23,8 +23,8 @@ struct TestNum {
     ]
 
     @Test("Num. Title", arguments: testCases)
-    func runSolution() async throws {
+    func runSolution(input: Int, expected: Int) async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.
-        #expect(solution.func(input) == expected)
+        #expect(solution.funcName(input) == expected)
     }
 }
