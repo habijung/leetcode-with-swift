@@ -16,7 +16,7 @@ class SolutionNum {
 
 struct TestNum {
     let solution = SolutionNum()
-    
+
     static let testCases: [(input: Int, expected: Int)] = [
         (0, 0),
         (1, 1),
