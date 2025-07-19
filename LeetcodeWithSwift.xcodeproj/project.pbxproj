@@ -112,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CEA7FCF42E27540200DC58F1 /* Build configuration list for PBXProject "leetcode-with-swift" */;
+			buildConfigurationList = CEA7FCF42E27540200DC58F1 /* Build configuration list for PBXProject "LeetcodeWithSwift" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -305,7 +305,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CEA7FCF42E27540200DC58F1 /* Build configuration list for PBXProject "leetcode-with-swift" */ = {
+		CEA7FCF42E27540200DC58F1 /* Build configuration list for PBXProject "LeetcodeWithSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEA7FCF52E27540200DC58F1 /* Debug */,

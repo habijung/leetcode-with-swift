@@ -22,7 +22,7 @@
                BlueprintIdentifier = "CEA7FD102E275A7000DC58F1"
                BuildableName = "LeetcodeWithSwift.xctest"
                BlueprintName = "LeetcodeWithSwift"
-               ReferencedContainer = "container:leetcode-with-swift.xcodeproj">
+               ReferencedContainer = "container:LeetcodeWithSwift.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
