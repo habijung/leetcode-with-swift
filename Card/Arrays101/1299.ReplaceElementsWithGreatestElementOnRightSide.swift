@@ -34,7 +34,7 @@ class Solution1299 {
 struct Test1299 {
     let solution = Solution1299()
     static let testCases: [(arr: [Int], expected: [Int])] = [
-        ([17, 18, 5, 4, 6, 1], [18, 6, 6, 6, 1, -1],),
+        ([17, 18, 5, 4, 6, 1], [18, 6, 6, 6, 1, -1]),
         ([400], [-1]),
     ]
 
