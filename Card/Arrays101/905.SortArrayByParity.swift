@@ -2,7 +2,7 @@
 //  905.SortArrayByParity.swift
 //  LeetcodeWithSwift
 //
-//  Created by habi on 8/3/25.
+//  Created by habijung on 8/3/25.
 //
 
 import Foundation

@@ -2,7 +2,7 @@
 //  941.ValidMountainArray.swift
 //  LeetcodeWithSwift
 //
-//  Created by habi on 7/20/25.
+//  Created by habijung on 7/20/25.
 //
 
 import Foundation

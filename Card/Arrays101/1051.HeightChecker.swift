@@ -2,7 +2,7 @@
 //  1051.HeightChecker.swift
 //  LeetcodeWithSwift
 //
-//  Created by habi on 8/12/25.
+//  Created by habijung on 8/12/25.
 //
 
 import Foundation

@@ -2,7 +2,7 @@
 //  1695.MaximumErasureValue.swift
 //  LeetcodeWithSwift
 //
-//  Created by hbjung on 7/22/25.
+//  Created by habijung on 7/22/25.
 //
 
 import Foundation

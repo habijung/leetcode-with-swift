@@ -2,7 +2,7 @@
 //  88.MergeSortedArray.swift
 //  LeetcodeWithSwift
 //
-//  Created by habi on 7/19/25.
+//  Created by habijung on 7/19/25.
 //
 
 import Foundation

@@ -2,7 +2,7 @@
 //  1299.ReplaceElementsWithGreatestElementOnRightSide.swift
 //  LeetcodeWithSwift
 //
-//  Created by habi on 7/29/25.
+//  Created by habijung on 7/29/25.
 //
 
 import Foundation
