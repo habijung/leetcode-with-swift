@@ -1,5 +1,5 @@
 //
-//  977.SquaresOfASortedArray.swift
+//  977.Squares_of_a_Sorted_Array.swift
 //  LeetcodeWithSwift
 //
 //  Created by habijung on 7/17/25.
@@ -7,7 +7,6 @@
 
 import Foundation
 import Testing
-
 
 class Solution977 {
     func sortedSquares(_ nums: [Int]) -> [Int] {
@@ -34,18 +33,44 @@ class Solution977 {
         
         return result
     }
+    
+    func sortedSquares2(_ nums: [Int]) -> [Int] {
+        var leftIndex = 0
+        var rightIndex = nums.count - 1
+        var result: [Int] = Array(repeating: 0, count: nums.count)
+        
+        for i in stride(from: nums.count - 1, through: 0, by: -1) {
+            let leftNum = Int(pow(Double(nums[leftIndex]), 2.0))
+            let rightNum = Int(pow(Double(nums[rightIndex]), 2.0))
+            
+            if leftNum < rightNum {
+                result[i] = rightNum
+                rightIndex -= 1
+            } else {
+                result[i] = leftNum
+                leftIndex += 1
+            }
+        }
+        
+        return result
+    }
 }
-
 
 struct Test977 {
     let solution = Solution977()
     
     static let testCases: [(input: [Int], expected: [Int])] = [
+        ([-4, -1, 0, 3, 10], [0, 1, 9, 16, 100]),
         ([-7, -3, 2, 3, 11], [4, 9, 9, 49, 121]),
     ]
     
     @Test("977. Squares of a Sorted Array", arguments: testCases)
     func runSolution(input: [Int], expected: [Int]) async throws {
         #expect(solution.sortedSquares(input) == expected)
+    }
+    
+    @Test("977. Squares of a Sorted Array", arguments: testCases)
+    func runSolution2(input: [Int], expected: [Int]) async throws {
+        #expect(solution.sortedSquares2(input) == expected)
     }
 }
