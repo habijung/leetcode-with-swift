@@ -1,5 +1,5 @@
 //
-//  1051.HeightChecker.swift
+//  1051.Height_Checker.swift
 //  LeetcodeWithSwift
 //
 //  Created by habijung on 8/12/25.

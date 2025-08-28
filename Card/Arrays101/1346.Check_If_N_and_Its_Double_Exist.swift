@@ -1,5 +1,5 @@
 //
-//  1346.CheckIfNAndItsDoubleExist.swift
+//  1346.Check_If_N_and_Its_Double_Exist.swift
 //  LeetcodeWithSwift
 //
 //  Created by habijung on 7/20/25.

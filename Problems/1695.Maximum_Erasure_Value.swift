@@ -1,5 +1,5 @@
 //
-//  1695.MaximumErasureValue.swift
+//  1695.Maximum_Erasure_Value.swift
 //  LeetcodeWithSwift
 //
 //  Created by habijung on 7/22/25.

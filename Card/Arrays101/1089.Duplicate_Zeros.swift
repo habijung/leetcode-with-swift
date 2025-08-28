@@ -1,5 +1,5 @@
 //
-//  1089.DuplicateZeros.swift
+//  1089.Duplicate_Zeros.swift
 //  LeetcodeWithSwift
 //
 //  Created by habijung on 7/19/25.

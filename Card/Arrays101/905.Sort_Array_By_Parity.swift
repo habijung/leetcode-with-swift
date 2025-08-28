@@ -1,5 +1,5 @@
 //
-//  905.SortArrayByParity.swift
+//  905.Sort_Array_By_Parity.swift
 //  LeetcodeWithSwift
 //
 //  Created by habijung on 8/3/25.

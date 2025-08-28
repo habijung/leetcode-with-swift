@@ -1,5 +1,5 @@
 //
-//  283.MoveZeros.swift
+//  283.Move_Zeros.swift
 //  LeetcodeWithSwift
 //
 //  Created by habijung on 8/3/25.

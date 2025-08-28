@@ -1,5 +1,5 @@
 //
-//  27.RemoveElement.swift
+//  27.Remove_Element.swift
 //  LeetcodeWithSwift
 //
 //  Created by habijung on 7/19/25.

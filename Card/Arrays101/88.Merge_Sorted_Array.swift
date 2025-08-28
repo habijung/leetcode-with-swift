@@ -1,5 +1,5 @@
 //
-//  88.MergeSortedArray.swift
+//  88.Merge_Sorted_Array.swift
 //  LeetcodeWithSwift
 //
 //  Created by habijung on 7/19/25.

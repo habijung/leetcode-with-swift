@@ -1,5 +1,5 @@
 //
-//  414.ThirdMaximumNumber.swift
+//  414.Third_Maximum_Number.swift
 //  LeetcodeWithSwift
 //
 //  Created by habijung on 8/17/25.

@@ -1,5 +1,5 @@
 //
-//  1957.DeleteCharactersToMakeFancyString.swift
+//  1957.Delete_Characters_to_Make_Fancy_String.swift
 //  LeetcodeWithSwift
 //
 //  Created by habijung on 7/21/25.

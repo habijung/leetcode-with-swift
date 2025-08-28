@@ -1,5 +1,5 @@
 //
-//  1299.ReplaceElementsWithGreatestElementOnRightSide.swift
+//  1299.Replace_Elements_with_Greatest_Element_on_Right_Side.swift
 //  LeetcodeWithSwift
 //
 //  Created by habijung on 7/29/25.
